@@ -1,4 +1,4 @@
-**Rest com NodeJS: API com Express e MySQL**
+# **Rest com NodeJS: API com Express e MySQL**
 
 - Aprender a criar API REST.
 - Usar o MySQL para salvar os nossos dados.
@@ -9,7 +9,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Baixar e realizar a instalação do Node.JS e do Postman
+### Baixar e realizar a instalação do Node.JS e do Postman:
 
 NodeJS: https://nodejs.org/pt-br/
 
@@ -58,11 +58,41 @@ Depois de finalizar a instalação acesso o arquivo package.json e adicione no m
 
  },
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para instalar o Consign digite o comando no terminal:
+
+$ npm install consign
+
+Já para instalar o body-parser digite o seguinte comando no terminal:
+
+$ npm install body-parser
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Já no terminal basta digitar o seguinte comando: 
 
 $ npm start
 
 Pronto! Agora todas as alterações feitas em nosso projeto assim que forem salvas o servidor irá reiniciar e as alterações irão subir automaticamente.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Instalando e Configurando o MySQL: 
+
+Usaremos o **MySQL** neste curso, e o primeiro passo é [baixar a ferramenta acessando este endereço](https://www.mysql.com/downloads/).
+
+Nesta página, encontraremos o link ["MySQL Community (GPL) Downloads" acessível aqui](https://dev.mysql.com/downloads/), onde clicaremos e baixaremos a versão gratuita para o sistema operacional que estivermos usando, que em nossas aulas será o **Windows**.
+
+Na lista de itens, clicaremos em "MySQL installer for Windows" e acessaremos a [página com o botão de download](https://dev.mysql.com/downloads/installer/) da versão executável que é o instalador de menor tamanho.
+
+Em seguida, bastará clicarmos em "No thanks, just start my download" para iniciarmos, pois não precisamos fazer cadastro para baixar o MySQL e iniciar a instalação.
+
+Enquanto baixamos, ainda temos que instalar o MySQL no NodeJS. Dentro do terminal do nosso projeto no Visual Studio Code, digitaremos `npm install mysql` e executaremos.
+
+
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -71,6 +101,12 @@ Pronto! Agora todas as alterações feitas em nosso projeto assim que forem salv
 - Criamos uma rota com express;
 
 - Adicionamos o nodemon para inicializar o nosso servidor e reiniciar o servidor automaticamente a qualquer alteração.
+
+- Configuramos o express e isolamos essa configuração;
+
+- Criamos uma rota POST para criar um novo atendimento e consumir essa rota usando o Postman;
+
+- Usamos `body-parser` para conseguir ler os dados que estamos recebendo no `body`.
 
   
 
