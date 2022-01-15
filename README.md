@@ -94,6 +94,14 @@ Também é necessário substituir as linhas de importação por:
 
 `const mysql = require('mysql2');`
 
+No Postman, adicionaremos o campo "data", e inseriremos algum dia qualquer no formato `dd/mm/aaaa`, então enviaremos a informação. No console verificaremos a existência de um erro, alegando que a data que inserimos está inválida.
+
+Precisaremos converter a nossa data para um formato específico, aquele usado em nossa base de dados. Para tanto, utilizaremos uma biblioteca `moment`, que manipulará as datas e as formatará.
+
+Para instalar a biblioteca moment digite o seguinte comando no terminal:
+
+`$ npm install moment`
+
 -----------------------------------------------------------------------------------------------------------
 
 ## Resumo das atividades realizadas no projeto:
