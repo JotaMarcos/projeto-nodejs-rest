@@ -107,24 +107,20 @@ Para instalar a biblioteca moment digite o seguinte comando no terminal:
 ## Resumo das atividades realizadas no projeto:
 
 - Iniciamos um novo projeto node;
-
 - Criamos uma rota com express;
-
-- Adicionamos o nodemon para inicializar o nosso servidor e reiniciar o servidor automaticamente a qualquer alteração.
-
+- Adicionamos o nodemon para inicializar o nosso servidor e reiniciar o servidor automaticamente a qualquer alteração;
 - Configuramos o express e isolamos essa configuração;
-
 - Criamos uma rota POST para criar um novo atendimento e consumir essa rota usando o Postman;
-
-- Usamos `body-parser` para conseguir ler os dados que estamos recebendo no `body`.
-
+- Usamos `body-parser` para conseguir ler os dados que estamos recebendo no `body`;
 - Conectamos nosso servidor com o mysql;
-
 - Criamos tabelas no mysql usando um script node;
-
-- Salvamos o nosso atendimento no banco de dados.
-
-  
+- Salvamos o nosso atendimento no banco de dados;
+- Tratamos datas com MomentJS;
+- Estudamos tipos de status HTTP e quando são usados;
+- Validamos entradas antes de enviar os dados para o banco de dados;
+- Aprendemos a utilizar os verbos HTTP: GET, PUT, PATCH e DELETE;
+- Diferenciamos quando usar PUT e quando usar PATCH;
+- Retornamos um objeto útil para o cliente.
 
 #### -------------------------------- Agora vamos codar e boa sorte na sua jornada! \o/ --------------------------------
 
