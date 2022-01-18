@@ -20,7 +20,8 @@
     "express": "^4.17.2",
     "moment": "^2.29.1",
     "mysql": "^2.18.1",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "promise": "^8.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
